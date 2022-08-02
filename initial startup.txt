@@ -1,0 +1,39 @@
+search on google strapi.io
+then create a strapi application
+
+download postgresql and pgadmin
+
+{for forntend we use nextjs search on goolge nextjs then create a nextapp 
+use tailwind css intellisense and es7+ react/reux/reaact-Native snippets extention
+tailwind template search tailblocks.cc
+
+make the function in forntend product page getserverside props then fetch products for api 
+}
+
+{
+Backend
+For payment method we need to make a custom controller search on google then goto the controller folder in backend files}
+
+
+
+if you want see images in postmen write at the end of url such that ?populate=*
+
+for learn nodejs please search on google nodejs.dev it is very helpful to understand the node js
+
+}
+
+{
+Production
+NODE_ENV=production /// use this one for uploading envirment variables to vps
+}
+
+
+strapi{
+username:abch4999@gmail.com
+pass:AbdulRehman4999@
+}
+
+pgadmin{
+master password:rehman
+postgre password:rehman
+}
