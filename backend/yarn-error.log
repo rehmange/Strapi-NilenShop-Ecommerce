@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ABDUL REHMAN\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --production --no-optional --network-timeout 1000000
+
+PATH: 
+  D:\Web development\Strapi\nilenshop\node_modules\.bin;D:\Web development\Strapi\node_modules\.bin;D:\Web development\node_modules\.bin;D:\node_modules\.bin;C:\Program Files\nodejs;D:\Web development\Strapi\node_modules\.bin;D:\Web development\node_modules\.bin;D:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Users\ABDUL REHMAN\AppData\Local\Microsoft\WindowsApps;C:\Users\ABDUL REHMAN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ABDUL REHMAN\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;;C:\Users\ABDUL REHMAN\AppData\Local\npm-cache\_npx\2d56dd13733e9da7\node_modules\.bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\ABDUL REHMAN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:771:9)
+      at Object.onceWrapper (node:events:641:28)
+      at TLSSocket.emit (node:events:539:35)
+      at TLSSocket.Socket._onTimeout (node:net:516:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "nilenshop",
+    "private": true,
+    "version": "0.1.0",
+    "description": "A Strapi application",
+    "scripts": {
+      "develop": "strapi develop",
+      "start": "strapi start",
+      "build": "strapi build",
+      "strapi": "strapi"
+    },
+    "devDependencies": {},
+    "dependencies": {
+      "@strapi/strapi": "4.2.3",
+      "@strapi/plugin-users-permissions": "4.2.3",
+      "@strapi/plugin-i18n": "4.2.3",
+      "better-sqlite3": "7.4.6"
+    },
+    "author": {
+      "name": "A Strapi developer"
+    },
+    "strapi": {
+      "uuid": "d4da8745-28be-4a75-ac95-367d5f376d9f"
+    },
+    "engines": {
+      "node": ">=12.x.x <=16.x.x",
+      "npm": ">=6.0.0"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
